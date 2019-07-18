@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/rancher/k3v/pkg/translate"
+	"github.com/ibuildthecloud/k3v/pkg/translate"
 	"github.com/rancher/magellan/pkg/proxy"
 	"k8s.io/apiserver/pkg/server"
 	"k8s.io/client-go/rest"

@@ -1,7 +1,7 @@
 package configmap
 
 import (
-	"github.com/rancher/k3v/pkg/translate"
+	"github.com/ibuildthecloud/k3v/pkg/translate"
 	corev1 "k8s.io/api/core/v1"
 )
 
