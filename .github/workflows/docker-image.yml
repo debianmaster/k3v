@@ -16,9 +16,3 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag debianmaster/k3v
-<<<<<<< HEAD
-    - name: Push docker image
-      run: |
-        docker ps
-=======
->>>>>>> 680634ff07c526649430f07b483c1eee2f1ad007
