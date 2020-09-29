@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/rancher/k3v/pkg/translate"
+	"github.com/ibuildthecloud/k3v/pkg/translate"
 	v1 "github.com/rancher/wrangler-api/pkg/generated/controllers/core/v1"
 	"github.com/rancher/wrangler/pkg/apply"
 	corev1 "k8s.io/api/core/v1"

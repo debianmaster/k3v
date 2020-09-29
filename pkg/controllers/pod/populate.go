@@ -7,7 +7,7 @@ import (
 	ioutil2 "io/ioutil"
 	"net/http"
 
-	"github.com/rancher/k3v/pkg/translate"
+	"github.com/ibuildthecloud/k3v/pkg/translate"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
